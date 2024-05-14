@@ -4,7 +4,7 @@ from google.cloud import pubsub_v1
 
 # GCP Configuration
 project_id = 'scientific-pad-420219'
-topic_id = 'busBreadCrumbData'
+topic_id = 'project_topic'
 
 # Publisher client
 publisher = pubsub_v1.PublisherClient()
