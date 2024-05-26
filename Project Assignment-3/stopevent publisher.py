@@ -5,7 +5,7 @@ import json
 from google.cloud import pubsub_v1
 
 # GCP Configuration
-project_id = 'dataengineering-420402'
+project_id = 'dataeng-project-420102'
 topic_id = 'stop-topic'
 
 # Publisher client
