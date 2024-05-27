@@ -57,7 +57,7 @@ def main():
                     cells = row.find_all('td')
                     row_data = {
                         'pdx_trip': pdx_trip,
-                        #'date': datetime.now().strftime("%Y-%m-%d"),
+                        'date': datetime.now().strftime("%Y-%m-%d"),
                         'vehicle_num': cells[0].text,  # Assuming the first cell contains the vehicle number
                         'leave_time': cells[1].text,
                         'train': cells[2].text,
